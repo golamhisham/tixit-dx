@@ -18,7 +18,7 @@ This project is part of a 12-week internship-style simulation to:
 - Build software in a real-world setting
 - Practice backend engineering skills
 
-# Structure
+## Structure
 
 - `Week1/`: All planning docs, designs, and schemas for Week 1
 
