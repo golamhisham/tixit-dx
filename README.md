@@ -4,7 +4,7 @@ Tixit DX is a lightweight, real-world issue tracking system inspired by Jira and
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **FastAPI** (backend)
 - **SQLAlchemy** (ORM)
@@ -17,7 +17,7 @@ Tixit DX is a lightweight, real-world issue tracking system inspired by Jira and
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - `week2/app/models/` — SQLAlchemy models (User, Project, Issue, Comment, etc.)
 - `week2/app/schemas/` — Pydantic schemas for request/response validation
@@ -30,7 +30,7 @@ Tixit DX is a lightweight, real-world issue tracking system inspired by Jira and
 
 ---
 
-## ✨ Features
+## Features
 
 - User registration and JWT login
 - Project CRUD (create, read, update, delete)
@@ -43,7 +43,7 @@ Tixit DX is a lightweight, real-world issue tracking system inspired by Jira and
 
 ---
 
-## 🛠️ How to Run the App
+## How to Run the App
 
 1. **Install dependencies:**
    ```bash
@@ -64,7 +64,7 @@ Tixit DX is a lightweight, real-world issue tracking system inspired by Jira and
 
 ---
 
-## 🖥️ CLI Tool
+## CLI Tool
 
 Interact with your Tixit DX backend from the command line:
 
@@ -84,7 +84,7 @@ python cli/main.py --help
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run all tests with:
 
@@ -97,7 +97,7 @@ pytest
 
 ---
 
-## 🐳 Docker
+## Docker
 
 To run the app and Postgres together using Docker Compose:
 
@@ -109,7 +109,7 @@ docker-compose up --build
 
 ---
 
-## 🔑 Example .env and .env.example
+## Example .env and .env.example
 
 Copy `.env.example` to `.env` and fill in your secrets:
 
@@ -128,12 +128,10 @@ JWT_SECRET_KEY=your-secret-key
 
 ---
 
-## 🤝 Contributing & Notes
+## Contributing & Notes
 
 - Feel free to fork, contribute, or use as a learning resource!
 - The backend is modular and ready for extension (e.g., notifications, more CLI commands, frontend integration).
 - If you spot any issues or want to suggest improvements, open an issue or PR.
 
 ---
-
-**Happy hacking!** 🚀
