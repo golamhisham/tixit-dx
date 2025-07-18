@@ -122,7 +122,7 @@ JWT_SECRET_KEY=your-secret-key
 
 ---
 
-## ⚡ Continuous Integration
+## Continuous Integration
 
 - All tests run automatically on push/PR to GitHub via GitHub Actions (see `.github/workflows/test.yml`).
 
