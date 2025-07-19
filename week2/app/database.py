@@ -5,7 +5,12 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+
+# Get DATABASE_URL from environment, fallback to SQLite
 DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    # Fallback to SQLite for local development and deployment
+    DATABASE_URL = "sqlite:///./tixitdx.db"
 
 # Create the engine
 engine = create_engine(DATABASE_URL)
